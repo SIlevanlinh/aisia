@@ -7,7 +7,7 @@ def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(config_class)
 
-    from .apiv1 import blueprint as api1
-    app.register_blueprint(api1)
+    from .apis.apiv1 import blueprint as apiv1
+    app.register_blueprint(apiv1)
 
     return app
