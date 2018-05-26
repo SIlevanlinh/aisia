@@ -101,4 +101,7 @@ ENV/
 .mypy_cache/
 
 # SQLite db
-app.db
+*.db
+
+# VScode settings
+.vscode/
