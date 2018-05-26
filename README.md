@@ -6,7 +6,7 @@ VScode Extension: vscode-icons, python, markdown preview enhanced
 ## Installation
 ### Virtual environment
 Ubuntu:  
-python3 -m venv venv
+python3 -m venv venv  
 venv/bin/activate  
 or  
 source venv/bin/activate
